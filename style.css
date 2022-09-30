@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: rgb(240, 240, 238);
+}
+h1{
+    color:white;
+    background-color:rgb(219, 72, 72);;
+    font-family: 'Roboto', sans-serif;
+}
+.contenedor{
+    display: flex;
+    width: 50%;
+    margin: 5% auto;
+    flex-wrap: wrap;
+    gap:60px 60px;
+    justify-content: center;
+    
+}
+.bloque-pokemon{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+.nombre{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    margin-left: 5px;
+}
+
+.numero{
+    font-family: 'Explora', cursive;
+    margin-left: 5px;
+}
+.img-container{
+    width: 150px;
+    height: 150px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
